@@ -1,48 +1,48 @@
 import React from 'react'
 
-import ecommerce from '../../images/ecommerce.jpg'
-import financial from '../../images/financial-app.jpg'
-import teletón from '../../images/teleton.jpg'
-import blockchain from '../../images/idapp.jpg'
-import registro from '../../images/registro.jpg'
-import Kmimos from '../../images/Kmimos.jpg'
+// import ecommerce from '../../images/ecommerce.jpg'
+// import financial from '../../images/financial-app.jpg'
+// import teletón from '../../images/teleton.jpg'
+// import blockchain from '../../images/idapp.jpg'
+// import registro from '../../images/registro.jpg'
+// import Kmimos from '../../images/Kmimos.jpg'
 
 const works = [
 	{
 		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
 		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
 		sites: "https://sites.google.com/view/tortura-en-mexico/home",
-		img: financial,
+		// img: financial,
 	},
 	{
 		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
 		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
 		sites: "https://sites.google.com/view/tortura-en-mexico/home",
-		img: ecommerce,
+		// img: ecommerce,
 	},
 	{
 		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
 		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
 		sites: "https://sites.google.com/view/tortura-en-mexico/home",
-		img: teletón,
+		// img: teletón,
 	},
 	{
 		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
 		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
 		sites: "https://sites.google.com/view/tortura-en-mexico/home",
-		img: blockchain,
+		// img: blockchain,
 	},
 	{
 		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
 		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
 		sites: "https://sites.google.com/view/tortura-en-mexico/home",
-		img: registro,
+		// img: registro,
 	},
 	{
 		title: "Siéntate amet superando a los osos gummi.",
 		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
 		sites: "https://sites.google.com/view/tortura-en-mexico/home",
-		img: Kmimos,
+		// img: Kmimos,
 	},
 ]
 

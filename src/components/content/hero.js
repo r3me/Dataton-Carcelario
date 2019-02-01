@@ -1,6 +1,6 @@
 import React from 'react'
 
-import amelia from './../../images/Carcek.jpg'
+import Carcel from '../../images/Carcel.jpg'
 
 const Hero = () => {
 	const scrollToContact = () => document.querySelector('.contact').scrollIntoView({ block: "start", behavior: "smooth" });
@@ -9,7 +9,7 @@ const Hero = () => {
     <div className="hero">
       <header>
         <picture>
-          <img src={amelia} alt="Tortura en México | UX" />
+					<img src={Carcel} alt="Tortura en México | UX" />
         </picture>
         <h1>psum magdalena dolor.</h1>
         <h2>Siéntate amet superando a los osos gummi. Helado tiramisú gomitas galleta galleta.</h2>
