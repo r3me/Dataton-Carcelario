@@ -9,39 +9,39 @@ import Kmimos from '../../images/Kmimos.jpg'
 
 const works = [
 	{
-		title: "Prototipo en Marvel de Aplicación Financiera",
-		link: "https://marvelapp.com/60f7397/screen/48903399",
-		sites: "https://sites.google.com/view/appfinanciera/p%C3%A1gina-principal",
+		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
+		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
+		sites: "https://sites.google.com/view/tortura-en-mexico/home",
 		img: financial,
 	},
 	{
-		title: "Prototipo en Marvel de E-Commerce",
-		link: "https://marvelapp.com/ecj1369/screen/47544031",
-		sites: "https://sites.google.com/view/jazhei/p%C3%A1gina-principal",
+		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
+		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
+		sites: "https://sites.google.com/view/tortura-en-mexico/home",
 		img: ecommerce,
 	},
 	{
-		title: "Prototipo en Figma de Hackathon Teletón",
-		link: "https://www.figma.com/file/oMhb2d6sOPL2LAEGAExYz3/Teleton?node-id=0%3A1",
-		sites: "https://sites.google.com/view/confiateleton/p%C3%A1gina-principal",
+		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
+		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
+		sites: "https://sites.google.com/view/tortura-en-mexico/home",
 		img: teletón,
 	},
 	{
-		title: "Prototipo en Marvel de Hackathon Blockchain",
-		link: "https://marvelapp.com/9i09d6b/screen/48170277",
-		sites: "https://sites.google.com/view/identidadapp/p%C3%A1gina-principal",
+		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
+		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
+		sites: "https://sites.google.com/view/tortura-en-mexico/home",
 		img: blockchain,
 	},
 	{
-		title: "Prototipo en Marvel de Registro de Visitantes",
-		link: "https://marvelapp.com/73f7e93/screen/46735739",
-		sites: "https://sites.google.com/view/registrodevisitantes/p%C3%A1gina-principal",
+		title: "psum magdalena dolor. Siéntate amet superando a los osos gummi.",
+		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
+		sites: "https://sites.google.com/view/tortura-en-mexico/home",
 		img: registro,
 	},
 	{
-		title: "Service Design Kmimos en Petco",
-		link: "https://sites.google.com/view/proyectokmimos/p%C3%A1gina-principal",
-		sites: "https://sites.google.com/view/proyectokmimos/p%C3%A1gina-principal",
+		title: "Siéntate amet superando a los osos gummi.",
+		link: "https://app.powerbi.com/view?r=eyJrIjoiOTZlNTBkZTctNDUxMS00NTFiLThhZTYtMzFhODI5MjgzYmQ4IiwidCI6IjA2ZDdlNTFiLTU4M2MtNDA4ZC05ZDY3LTQyNzI3YzcwM2NlNCIsImMiOjR9&pageName=ReportSection",
+		sites: "https://sites.google.com/view/tortura-en-mexico/home",
 		img: Kmimos,
 	},
 ]
@@ -49,7 +49,7 @@ const works = [
 const Portfolio = () => (
 	<div className="portfolio">
 		<header>
-			<h3>Portafolio</h3>
+			<h3>Datos</h3>
 		</header>
 		{ works.map((work) => (
 			<div key={work.title}>
@@ -57,7 +57,7 @@ const Portfolio = () => (
 					<img src={work.img} alt={work.title} />
 					<span>{work.title}</span>
 				</a>
-				<a className="site" href={work.sites} target="_blank" rel="noopener noreferrer">Proceso UX</a>
+				<a className="site" href={work.sites} target="_blank" rel="noopener noreferrer">mas info</a>
 			</div>
 		)) }
   </div>

@@ -6,10 +6,10 @@
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('./../../images/contacto-mobile.jpg');
-  @include tablet { background-image: url('./../../images/contacto-tablet.jpg'); }
-  @include desk { background-image: url('./../../images/contacto-desktop.jpg'); }
-  @include retina { background-image: url('./../../images/contacto-retina.jpg'); }
+  background-image: url('./../../images/carcel.jpg');
+  @include tablet { background-image: url('./../../images/carcel.jpg'); }
+  @include desk { background-image: url('./../../images/carcel.jpg'); }
+  @include retina { background-image: url('./../../images/carcel.jpg'); }
 	header { text-align: center;
 		h3 { display: inline-block; font-size: 1.6rem; font-weight: 300; color: white; padding: 0.5rem 2rem; border-bottom: 2px solid $base; margin-bottom: 2rem; }
 	}

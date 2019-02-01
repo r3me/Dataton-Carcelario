@@ -4,22 +4,22 @@ const Bio = () => {
 
   const jobs = [
     {
-      title: "Médicos sin Fronteras en México AC",
-      description: "Proyecto `Transmigrantes´",
-      activity: "Realización de entrevistas a personas migrantes en Tránsito por México.",
-      date: "2018"
+      title: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
+      description: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.´",
+      activity: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
+      date: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah."
     },
     {
-      title: "SIMO Consulting",
-      description: "Proyecto `Calidad del Aire´",
-      activity: "Responsable de equipo, seguimiento de rutas, supervisión en campo.",
+      title: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
+      description: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
+      activity: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
       date: "2018"
     },
       {
-      title: "Consultoría",
-      description: "Freelance",
-      activity: "Auditoría del proceso electoral, proyectos académicos, de mercadotecnia entre otros.",
-      date: "2016-2018"
+      title: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
+      description: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
+      activity: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah.",
+      date: "Chocolate del pastel de queso de la torta de la zanahoria de la melcocha de Halvah."
     },
     // {
     //   title: "Palíndromos Sociedades Igualitarias SC",
@@ -117,18 +117,22 @@ const Bio = () => {
   return (
     <div className="bio">
       <header>
-        <h3>Acerca de mí.</h3>
-        <p>Etnóloga - UX, apasionada por la intersección entre las ciencias sociales y la tecnología.</p> 
-        <p>Me gustan los retos, aprender y compartir con equipos multidisciplinarios. </p>
+        <h3>Antecedentes.</h3>
+        <p>Macarrones de regaliz dulce rollo brownie de frutas. Caramelo dulce oblea chupa chups helado pasteles pastel de manzana pastel de zanahoria pastelería. Sesame snaps jelly-o polvo sésamo snaps halvah. Gotas de limón, pan de jengibre, cupcake, gotas de limón, gelatina, chocolate, danés. Pastel de avena tootsie roll chupa chups. Melcocha Tootsie Rollo Sésamo Broches De Avena Torta De Postre Dulces Bastones Muffin De Zanahoria Pastel De Hielo. Caramelo de jengibre y ciruela. Lollipop de algodón de azúcar danés. Algodón dulce rollo dulce bastones de caramelo postre azúcar ciruela tootsie rollo gotas de limón. Dulce azúcar ciruela dragée halvah dragée jujubes pudín.
+
+Soufflé barra de chocolate paleta jalea-o pastel de avena regaliz. Oso de la magdalena soufflé brownie piruleta. Azúcar, caramelo, ciruela, gelatina, oso, garra, gelatina, dulce de galletas. Pastelería tootsie rollo galletas galletas pastelería rosquilla muffin. Relleno de pudín con cobertura de mazapán algodón de oblea. Regaliz galleta chocolate tootsie roll bastones de caramelo oso garra. Magdalena brownie caramelos pastel de avena malvavisco tarta de dragée. Azúcar helado de ciruela chupa chups muffin polvo pastelería jalea. Dona de malvavisco pastel de helado de oblea donut jalea-o.
+
+Tarta de avena con postre de ajonjolí y pudín. Tootsie roll cookie pudding jujubes tarta barra de chocolate glaseado. Polvo de hojaldre de pan de jengibre. Postre jujubes pastel de chocolate sésamo broches gummi osos barra de chocolate paleta. Tiramisu jelly beans dragée jelly beans gingerbread donut donut jujubes jujubes. Barra de chocolate en polvo soufflé. Jalea-o postre croissant caramelos de algodón de azúcar glas. Brownie oso garra toffee. Jujubes polvo magdalena chupa chups caramelos galleta galleta danesa.</p> 
+        <p>// </p>
       </header>
       <article>
-        <h3>Experiencia</h3>
+        <h3>Mexico</h3>
         <section className="bio--jobs">
           {experiencia}
         </section>
       </article>
       <article>
-        <h3>Mis Habilidades</h3>
+        <h3>Datos</h3>
 				<section className="bio--skills">
 					{habilidades}
 				</section>

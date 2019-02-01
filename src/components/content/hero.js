@@ -1,6 +1,6 @@
 import React from 'react'
 
-import amelia from './../../images/amelia.png'
+import amelia from './../../images/Carcek.jpg'
 
 const Hero = () => {
 	const scrollToContact = () => document.querySelector('.contact').scrollIntoView({ block: "start", behavior: "smooth" });
@@ -9,10 +9,10 @@ const Hero = () => {
     <div className="hero">
       <header>
         <picture>
-          <img src={amelia} alt="Amelia Estrada | UX" />
+          <img src={amelia} alt="Tortura en México | UX" />
         </picture>
-        <h1>Amelia Estrada</h1>
-        <h2>Ux Designer</h2>
+        <h1>psum magdalena dolor.</h1>
+        <h2>Siéntate amet superando a los osos gummi. Helado tiramisú gomitas galleta galleta.</h2>
       </header>
       <nav>
         <a href="https://www.linkedin.com/in/amelia-estrada/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in" /></a>
